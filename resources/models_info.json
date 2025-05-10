@@ -1,0 +1,121 @@
+{
+  "models": [
+    {
+      "id": "qwen3",
+      "name": "Qwen3",
+      "description": "Универсальный агент для различных задач, разработанный ModelScope.",
+      "source": "ModelScope",
+      "category": "Универсальная модель",
+      "requirements": {
+        "ram": "8 ГБ",
+        "disk": "4 ГБ",
+        "gpu": "Опционально (>4GB VRAM)"
+      },
+      "install_command": "ollama pull qwen3"
+    },
+    {
+      "id": "llama3.1",
+      "name": "Llama 3.1",
+      "description": "Модель от Meta для общих задач с улучшенной логикой и способностью к рассуждениям.",
+      "source": "Meta",
+      "category": "Универсальная модель",
+      "requirements": {
+        "ram": "8 ГБ",
+        "disk": "4 ГБ",
+        "gpu": "Опционально (>4GB VRAM)"
+      },
+      "install_command": "ollama pull llama3.1"
+    },
+    {
+      "id": "codellama",
+      "name": "Code Llama",
+      "description": "Специализированная модель для программирования и создания кода на различных языках.",
+      "source": "Meta",
+      "category": "Программирование",
+      "requirements": {
+        "ram": "8 ГБ",
+        "disk": "4 ГБ",
+        "gpu": "Опционально (>4GB VRAM)"
+      },
+      "install_command": "ollama pull codellama"
+    },
+    {
+      "id": "starcoder2",
+      "name": "StarCoder 2",
+      "description": "Модель для кодирования и генерации скриптов от HuggingFace с поддержкой множества языков программирования.",
+      "source": "HuggingFace",
+      "category": "Программирование",
+      "requirements": {
+        "ram": "8 ГБ",
+        "disk": "4 ГБ",
+        "gpu": "Опционально (>4GB VRAM)"
+      },
+      "install_command": "ollama pull starcoder2"
+    },
+    {
+      "id": "phi3-mini",
+      "name": "Phi-3 Mini",
+      "description": "Легкая модель от Microsoft для быстрого ответа с меньшими системными требованиями.",
+      "source": "Microsoft",
+      "category": "Легкая модель",
+      "requirements": {
+        "ram": "4 ГБ",
+        "disk": "2 ГБ",
+        "gpu": "Опционально"
+      },
+      "install_command": "ollama pull phi3-mini"
+    },
+    {
+      "id": "deepseek-coder-v2",
+      "name": "DeepSeek Coder V2",
+      "description": "Специализированная модель для разработки кода с поддержкой автодополнения и генерации функций.",
+      "source": "DeepSeek",
+      "category": "Программирование",
+      "requirements": {
+        "ram": "8 ГБ",
+        "disk": "4 ГБ",
+        "gpu": "Опционально (>4GB VRAM)"
+      },
+      "install_command": "ollama pull deepseek-coder:v2"
+    },
+    {
+      "id": "mistral-large",
+      "name": "Mistral Large",
+      "description": "Модель для логики и рассуждений от Mistral AI с высоким качеством вывода.",
+      "source": "Mistral AI",
+      "category": "Универсальная модель",
+      "requirements": {
+        "ram": "8 ГБ",
+        "disk": "5 ГБ",
+        "gpu": "Рекомендуется (>6GB VRAM)"
+      },
+      "install_command": "ollama pull mistral-large"
+    },
+    {
+      "id": "mixtral",
+      "name": "Mixtral",
+      "description": "Модель типа MoE для сложных задач с улучшенной производительностью за счет смеси экспертов.",
+      "source": "Mistral AI",
+      "category": "Универсальная модель",
+      "requirements": {
+        "ram": "16 ГБ",
+        "disk": "8 ГБ",
+        "gpu": "Рекомендуется (>8GB VRAM)"
+      },
+      "install_command": "ollama pull mixtral"
+    },
+    {
+      "id": "openchat",
+      "name": "OpenChat",
+      "description": "Быстрая и точная модель для диалогов с оптимизацией для естественного языка.",
+      "source": "Open Source",
+      "category": "Диалоговая модель",
+      "requirements": {
+        "ram": "8 ГБ",
+        "disk": "4 ГБ",
+        "gpu": "Опционально (>4GB VRAM)"
+      },
+      "install_command": "ollama pull openchat"
+    }
+  ]
+}
